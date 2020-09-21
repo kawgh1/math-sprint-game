@@ -269,10 +269,14 @@ button:active {
 
 /* Media Query: Large Smartphone (Vertical) */
 @media screen and (max-width: 600px) {
+
+  
+
   .game-container {
     width: 90%;
     margin-top: 0;
     border: none;
+    min-height: -webkit-fill-available;
     height: 90vh;
   }
 
@@ -368,7 +372,7 @@ button:active {
   } */
 
   .score-container {
-    height: 400px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -400,6 +404,14 @@ button:active {
   .base-time {
     margin-top: 20px;
     margin-bottom: 0;
+    font-size: 1.5rem;
+  }
+
+  .penalty-time {
+    color: var(--danger);
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 1.5rem;
   }
 
   /* /////////////////// */
