@@ -2,7 +2,7 @@
 
 Project based on course from Zero To Mastery
 
-#### I added CSS media queries for use on mobile view.
+#### I added CSS media queries for use on iPhone 8.
 
 Due to the moving divs in the game play, it's difficult to guarantee mobile view across all devices without testing on each device brand and model.
 
