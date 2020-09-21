@@ -381,7 +381,7 @@ button:active {
     display: flex;
     justify-content: center;
     position: relative;
-    top: -30px;
+    top: -35px;
   }
 
  
@@ -397,7 +397,7 @@ button:active {
   }
   
   .base-time {
-    margin-top: 100px;
+    margin-top: 20px;
     margin-bottom: 0;
   }
 
