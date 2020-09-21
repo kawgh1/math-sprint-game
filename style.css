@@ -283,7 +283,7 @@ button:active {
   }
 
   .item-footer {
-    top: -10px;
+    top: -25px;
   }
 
   .header {
@@ -328,7 +328,7 @@ button:active {
   }
 
   .selection-footer {
-    margin-top: -8rem;
+    margin-top: -7.5rem;
     width: 95%;
     margin-left: 3%;
     border-radius: 5px;
@@ -387,6 +387,7 @@ button:active {
  
 
   .title {
+    margin-top: 0;
     font-size: 35px;
   }
 
