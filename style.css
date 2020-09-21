@@ -282,6 +282,10 @@ button:active {
     top: 345px;
   }
 
+  .item-footer {
+    top: -10px;
+  }
+
   .header {
     font-size: 1rem;
     height: 80px;
