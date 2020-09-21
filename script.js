@@ -152,7 +152,7 @@ function checkTime() {
 
       } else {
         // Incorrect guess, add penalty
-        penaltyTime += 5;
+        penaltyTime += 1;
       }
     });
 

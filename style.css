@@ -324,10 +324,11 @@ button:active {
   }
 
   .selection-footer {
-    margin-top: -5rem;
+    margin-top: -7rem;
     width: 95%;
     margin-left: 3%;
     border-radius: 5px;
+    height: 75px;
   }
 
   /* Game Page */
@@ -352,7 +353,7 @@ button:active {
   }
 
   .item-container {
-    height: 440px;
+    height: 390px;
     overflow-y: scroll;
     position: relative;
     -ms-overflow-style: none;
@@ -396,6 +397,34 @@ button:active {
     margin-bottom: 0;
   }
 
+  /* /////////////////// */
+
+  .game-container {
+    width: 90%;
+    margin-top: 0;
+    border: none;
+    height: 85vh;
+  }
+
+  
+
+  .selected-item {
+    top: 265px;
+  }
+
+  .header {
+    font-size: .7rem;
+    height: 80px;
+  }
+
+  .countdown {
+    margin-top: 60%;
+  }
+
+  .selection-container {
+    top: 1rem;
+  }
+
   
 }
 
@@ -406,7 +435,7 @@ button:active {
     width: 90%;
     margin-top: 0;
     border: none;
-    height: 90vh;
+    height: 85vh;
   }
 
   
@@ -425,7 +454,7 @@ button:active {
   }
 
   .selection-container {
-    top: 3rem;
+    top: 1rem;
   }
 
   .radio-container {
@@ -486,7 +515,7 @@ button:active {
   }
 
   .item-container {
-    height: 350px;
+    height: 150px;
     overflow-y: scroll;
     position: relative;
     -ms-overflow-style: none;
