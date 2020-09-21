@@ -270,14 +270,16 @@ button:active {
 /* Media Query: Large Smartphone (Vertical) */
 @media screen and (max-width: 600px) {
 
-  
+  body {
+    margin-top: 100px;
+  }
 
   .game-container {
     width: 90%;
-    margin-top: 0;
+    margin-top: 0px;
     border: none;
-    min-height: -webkit-fill-available;
-    height: 90vh;
+    /* min-height: -webkit-fill-available;
+    height: 90vh; */
   }
 
   
@@ -445,17 +447,17 @@ button:active {
   
 }
 
-@supports (-webkit-touch-callout: none) {
+/* @supports (-webkit-touch-callout: none) {
   /* CSS specific to iOS devices */ 
 
-  .game-container {
+  /* .game-container {
     width: 90%;
     margin-top: 0;
     border: none;
     min-height: -webkit-fill-available;
     height: 90vh;
   }
-}
+} */
 
 /* Media Query: small vertical */
 @media screen and (max-width: 365px) {
