@@ -297,7 +297,7 @@ function showCountdown() {
   splashPage.hidden = true;
   countdownStart();
   populateGamePage();
-  setTimeout(showGamePage, 40);
+  setTimeout(showGamePage, 4000);
 }
 
 // Get the Number of Questions value from user selected radio button
